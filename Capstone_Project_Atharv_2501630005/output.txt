@@ -1,0 +1,105 @@
+===================================
+   LOADING DEMO DATA...
+Demo Data Ready.
+========================================
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 2
+Enter ID to View: u1
+
+FOUND: Atharv, Age: 18, Interests: ['AI', 'Robotics']
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 2
+Enter ID to View: u2
+
+FOUND: Arun, Age: 29, Interests: ['Law']
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 3
+ID to Update: u3
+New Name: Kavyan
+>> Updated.
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 1
+ID: u11
+Name: Suraj
+Age: 21
+Interests: Business
+>> Added.
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 4
+ID 1: u1
+ID 2: u11
+>> Connected.
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 5
+Start ID: u11
+End ID: u1
+>> Path: ['u11', 'u1']
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 6
+ID: u1
+Depth: u11
+Error occurred: invalid literal for int() with base 10: 'u11'
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: u1
+Option u1 not recognized. Try again.
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 2
+Enter ID to View: u11
+
+FOUND: Vijendra, Age: 41, Interests: ['Business']
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 6
+ID: u1
+Depth: 2
+>> Reachable: {'u3', 'u11', 'u2', 'u5', 'u1', 'u4'}
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 6
+ID: u1
+Depth: 1
+>> Reachable: {'u3', 'u11', 'u1', 'u5'}
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 7
+User ID: u11
+>> Recommendations: []
+
+--- SOCIAL NETWORK EXPLORER ---
+1: Add | 2: View | 3: Update | 4: Friend | 5: BFS | 6: DFS | 7: Recs | 8: Exit
+
+Select a number: 8
+Goodbye!
